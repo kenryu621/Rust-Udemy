@@ -1,0 +1,4 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["Kenry Yu <kenryu422@outlook.com>"]
