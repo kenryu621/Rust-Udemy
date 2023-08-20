@@ -1,0 +1,8 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./data_structures/Cargo.toml",
+        "./types_and_variables/Cargo.toml",
+        "./hello_world/Cargo.toml",
+        "./control_flow/Cargo.toml"
+    ]
+}
