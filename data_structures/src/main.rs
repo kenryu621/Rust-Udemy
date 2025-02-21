@@ -3,8 +3,6 @@ use std::io;
 mod arrays;
 mod enumerations;
 mod generics;
-mod hashset;
-mod iterators;
 mod option;
 mod pm;
 mod structures;
@@ -23,9 +21,6 @@ fn main() {
     println!("8. Tuples");
     println!("9. Pattern Matching");
     println!("10. Generics");
-    println!("11. HashSet");
-    println!("12. HastSet: Mathematics");
-    println!("13. Iterators");
     let mut input: String = String::new();
 
     io::stdin()
@@ -45,9 +40,6 @@ fn main() {
         8 => tuples::tuples(),
         9 => pm::pattern_matching(),
         10 => generics::generics(),
-        11 => hashset::hashset(),
-        12 => hashset::set_math(),
-        13 => iterators::demo(),
         _ => println!("Not an valid input."),
     }
 }
