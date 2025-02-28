@@ -98,7 +98,7 @@ static mut Z: i32 = 26;
 
 // In most cases, if the programmer only needs an immutable constant,
 // the const is much better than static
-
+#[allow(static_mut_refs)]
 fn constants() {
     println!("The meaning of life is {}", MEANING_OF_LIFE);
     // By declaring a unsafe scope means that the programmer understood
